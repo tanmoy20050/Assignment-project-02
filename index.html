@@ -31,9 +31,9 @@
         </nav>
         <!-- hero section -->
 
-        <div class=" grid   md:grid-cols-2 grid-cols-1 ">
+        <div class=" grid  grid-cols-1 md:grid-cols-2  ">
 
-            <div class="mt-8 items-center w-[1140px]">
+            <div class="mt-8 items-center w-[1140px] order-2 md:order-1">
                 <h2 class="text-5xl">ALWAYS <span class="text-[#E95A08]">FRESH</span></h2>
                 <h2 class="text-5xl text-[#E95A08]">FLOWERS</h2>
                 <p class="w-[400px] h-[80px]">Indulge your senses with the beauty and fragrance of our fresh flower
@@ -43,7 +43,9 @@
                 </p>
             </div>
 
-            <img class="w-[570px] h-[355px] shadow-md" src="assets/hero-flower.png" alt="">
+            <div class="order-1 md:order-2 flex justify-center">
+                <img class="w-[570px] h-[355px] shadow-md" src="assets/hero-flower.png" alt="">
+            </div>
         </div>
         </div>
         </div>
@@ -67,7 +69,7 @@
                 <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 p-2.5">
                     <div class="  mt-8 ">
                         <img class="border-2" src="assets/sample-flower-image.png" alt="">
-                        <div class="text-center">
+                        <div class="flex-col text-center items-center">
                             <p>Lily Blossom</p>
                             <p class="text-2xl">20 USD</p>
                             <button class="bg-[#E95A08] text-[#FFFFFF] p-2 rounded-2xl">ADD TO CART</button>
@@ -137,7 +139,9 @@
                 <div class="grid grid-cols-1 lg:grid-cols-2 mt-10 ">
                     <div>
                         <img class="w-[350px]" src="assets/flower-store.png" alt="">
+                        <img class="relative absolute top-2" src="assets/trusted-badge.png" alt="">
                     </div>
+
 
                     <div>
 
@@ -181,7 +185,7 @@
                             class="relative rounded-lg  overflow-hidden h-40 bg-cover bg-center bg-[url('./assets/deal-bloom.png')]">
                             <div class="absolute inset-0   flex flex-col justify-center  p-4 text-white">
                                 <h3 class="font-bold text-2xl">60% Off | Bloom Plant</h3>
-                                <a href="#" class="mt-2  underline">Shop Now</a>
+                                <a href="" class="mt-2  underline">Shop Now</a>
                             </div>
                         </div>
                         <!-- Ana Plant Card -->
@@ -189,7 +193,7 @@
                             class="relative rounded-lg overflow-hidden h-40 bg-cover bg-center bg-[url('./assets/deal-ana.png')]">
                             <div class="absolute inset-0  flex flex-col justify-center  p-4 text-white">
                                 <h3 class="font-bold text-2xl">30% Off | Ana Plant</h3>
-                                <a href="#" class="mt-2  underline">Shop Now</a>
+                                <a href="" class="mt-2  underline">Shop Now</a>
                             </div>
                         </div>
                     </div>
@@ -202,7 +206,7 @@
                             <div
                                 class="absolute inset-0  flex flex-col justify-center items-center text-white p-6 text-center">
                                 <h3 class="font-bold text-2xl">25% Off | Zabo Plant</h3>
-                                <a href="#" class="mt-4 text-sm underline">Shop Now</a>
+                                <a href="" class="mt-4 text-sm underline">Shop Now</a>
                             </div>
                         </div>
                     </div>
